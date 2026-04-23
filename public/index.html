@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auth App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Authentication System</h1>
+
+    <div class="card">
+      <h2>Register</h2>
+      <input id="regName" placeholder="Name">
+      <input id="regEmail" placeholder="Email">
+      <input id="regPassword" type="password" placeholder="Password">
+      <button onclick="register()">Register</button>
+    </div>
+
+    <div class="card">
+      <h2>Login</h2>
+      <input id="logEmail" placeholder="Email">
+      <input id="logPassword" type="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div class="card">
+      <h2>Profile</h2>
+      <button onclick="getProfile()">Get Profile</button>
+    </div>
+
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
